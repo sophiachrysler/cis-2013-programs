@@ -62,7 +62,7 @@ var reverse = function ()
 
 		var stringReversed = "";
         var intCount ;
-        for (intCount = stringEnry.length - 1; intCount >= 0; intCount--){        
+        for (intCount = stringEntry.length - 1; intCount >= 0; intCount--){        
         stringReversed = stringReversed + stringEntry.charAt(intCount);
         }
 		$("output").value = "The reverse of the above phrase is:" + stringReversed;
